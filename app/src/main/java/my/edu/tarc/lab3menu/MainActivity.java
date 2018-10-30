@@ -25,6 +25,11 @@ public class MainActivity extends AppCompatActivity {
         //getTextSize will get the text size in PX unit by default
         size = textViewMessage.getTextSize();
 
+        //OR
+        //size = textViewMessage.getTextSize()/getResources().getDisplayMetrics().density;
+
+
+        
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
